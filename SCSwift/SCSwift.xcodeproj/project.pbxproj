@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43B36B9227A4EF8600836214 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B36B9127A4EF8600836214 /* SecondViewController.swift */; };
 		84EB44E32276994300860E2F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB44E22276994300860E2F /* AppDelegate.swift */; };
 		84EB44E52276994300860E2F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB44E42276994300860E2F /* ViewController.swift */; };
 		84EB44E82276994300860E2F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EB44E62276994300860E2F /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43B36B9127A4EF8600836214 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		84EB44DF2276994300860E2F /* SCSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SCSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84EB44E22276994300860E2F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		84EB44E42276994300860E2F /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -56,6 +58,7 @@
 			children = (
 				84EB44E22276994300860E2F /* AppDelegate.swift */,
 				84EB44E42276994300860E2F /* ViewController.swift */,
+				43B36B9127A4EF8600836214 /* SecondViewController.swift */,
 				84EB44E62276994300860E2F /* Main.storyboard */,
 				84EB44E92276994400860E2F /* Assets.xcassets */,
 				84EB44EB2276994400860E2F /* LaunchScreen.storyboard */,
@@ -96,6 +99,7 @@
 				TargetAttributes = {
 					84EB44DE2276994300860E2F = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1320;
 					};
 				};
 			};
@@ -135,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				43B36B9227A4EF8600836214 /* SecondViewController.swift in Sources */,
 				84EB44E52276994300860E2F /* ViewController.swift in Sources */,
 				84EB44E32276994300860E2F /* AppDelegate.swift in Sources */,
 			);
@@ -282,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SCSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -290,6 +296,7 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = admin.SCSwift;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -299,6 +306,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = SCSwift/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
